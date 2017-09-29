@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="850dp"
+    android:layout_height="750dp">
+
+    <RelativeLayout
+        android:id="@+id/crop_bg"
+        android:layout_width="850dp"
+        android:layout_height="650dp"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/iv_dialog_crop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/crop_bg">
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:text="截图"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp" />
+    </RelativeLayout>
+</RelativeLayout>

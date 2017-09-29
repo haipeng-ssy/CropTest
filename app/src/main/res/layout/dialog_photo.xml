@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="594dp"
+                android:layout_height="454dp"
+                android:background="@mipmap/photo_background"
+    >
+
+    <RelativeLayout
+        android:id="@+id/first_rl"
+        android:layout_width="480dp"
+        android:layout_height="270dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/dialog_iv_preveiw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            />
+
+        <ImageView
+            android:id="@+id/dialog_tuodong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.3"
+            android:background="@android:color/black"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/dialog_tishi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="拖动选择共享区域"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/txt_16sp"
+            android:visibility="invisible"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/first_rl"
+        >
+
+        <ImageButton
+            android:id="@+id/dialog_preview_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="57dp"
+            android:background="@mipmap/btn_gongxiang"
+            />
+
+        <ImageButton
+            android:id="@+id/dialog_preview_save1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_toLeftOf="@+id/dialog_preview_save"
+            android:background="@mipmap/bg_preview_photo_save"
+            />
+
+        <ImageButton
+            android:id="@+id/dialog_preview_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_toLeftOf="@+id/dialog_preview_save1"
+            android:background="@mipmap/btn_quxiao"
+            />
+        <ImageButton
+            android:id="@+id/dialog_preview_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_toLeftOf="@+id/dialog_preview_del"
+            android:background="@mipmap/btn_send_photodialog"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

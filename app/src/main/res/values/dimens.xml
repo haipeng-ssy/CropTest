@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="txt_14sp">14sp</dimen>
+    <dimen name="txt_16sp">16sp</dimen>
+    <dimen name="txt_12sp">12sp</dimen>
+    <dimen name="txt_18sp">18sp</dimen>
+    <dimen name="txt_20sp">20sp</dimen>
+    <dimen name="txt_24sp">24sp</dimen>
+    <dimen name="txt_22sp">22sp</dimen>
+    <dimen name="txt_36sp">36sp</dimen>
+    <dimen name="txt_42sp">42sp</dimen>
+
+    <!--红樱枫-->
+    <dimen name="inputdlg_button_width">100dp</dimen>
+    <dimen name="toolbar_goto_fontsize">18dip</dimen>
+    <dimen name="excel_formula_spinner_height">45px</dimen>
+    <dimen name="txt_30sp">30sp</dimen>
+    <!--红樱枫-->
+</resources>
